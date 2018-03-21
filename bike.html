@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Fitness</title>
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+		html {
+			background-color: #f9f9f9;
+		}
+		.clearfix:before,
+		.clearfix:after,
+		.clearfix {
+			content: '';
+			display: block;	
+			clear: both;
+			float: none;
+		}
+		#root {
+			width: 1060px;
+			margin: auto;
+			background-color: #fff;
+			padding: 50px 48px 60px 46px;
+			box-shadow: 0 0 5px 5px rgba(0, 0, 0, .2);
+		}
+		.logo__wrapper {
+			margin-bottom: 40px;
+		}
+		.header-nav {
+			background: linear-gradient(to bottom, #5e5e5e, #464545);
+			margin-bottom: 40px;
+		}
+		.header-nav__link {
+			display: block;
+			height: 40px;
+			width: 144px;
+			line-height: 40px;
+			padding-left: 24px;
+			color: white;
+			text-decoration: none;
+			font-size: 11pt;
+			font-family: OpenSans, sans-serif;
+			float: left;
+			transition: .3s;
+		}
+		.header-nav__link:hover {
+			background-color: rgba(0, 0, 0, .3);
+		}
+	</style>
+</head>
+<body>
+	<div id="root">
+		<header>
+			<figure class="logo__wrapper">
+				<img src="" alt="Fitness" class="logo" width="144" height="40">
+			</figure>
+			<nav class="clearfix header-nav">
+				<a href="#" class="header-nav__link">Главная</a>
+				<a href="#" class="header-nav__link">Товары</a>
+				<a href="#" class="header-nav__link">О нас</a>
+				<a href="#" class="header-nav__link">Контакты</a>
+			</nav>
+		</header>
+		<main>
+			<aside class="side-nav">
+				<a href="#" class="side-nav__link">Ноутбуки</a>
+				<a href="#" class="side-nav__link">Планшеты</a>
+				<a href="#" class="side-nav__link">Телефоны</a>
+				<a href="#" class="side-nav__link">Телевизоры</a>
+				<a href="#" class="side-nav__link">Бытовая техника</a>
+				<a href="#" class="side-nav__link">Автотовары</a>
+			</aside>
+			<article class="article">
+				<figure class="article-image__wrapper">
+					<img src="" alt="" class="article-image">
+				</figure>
+				<p class="article__text">
+					Lorem Ipsum - це текст-"риба", що використовується в друкарстві та дизайні. Lorem Ipsum є, фактично, стандартною "рибою" аж з XVI сторіччя, коли невідомий друкар взяв шрифтову гранку та склав на ній підбірку зразків шрифтів. "Риба" не тільки успішно пережила п'ять століть, але й прижилася в електронному верстуванні, залишаючись по суті незмінною. Вона популяризувалась в 60-их роках минулого сторіччя завдяки виданню зразків шрифтів Letraset, які містили уривки з Lorem Ipsum, і вдруге - нещодавно завдяки програмам комп'ютерного верстування на кшталт Aldus Pagemaker, які використовували різні версії Lorem Ipsum.
+				</p>
+			</article>
+		</main>
+		<footer>
+			<nav class="footer-nav">
+				<a href="#" class="footer-nav__link">Главная</a>
+				<a href="#" class="footer-nav__link">Товары</a>
+				<a href="#" class="footer-nav__link">О нас</a>
+				<a href="#" class="footer-nav__link">Контакты</a>
+			</nav>
+			<p class="copyright">2014 © All rights reserved</p>
+		</footer>
+	</div>
+</body>
+</html>
